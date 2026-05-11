@@ -21,6 +21,8 @@ export interface GraphEdge {
   target: string;
   weight: number;
   label?: string;
+  transactions?: number;
+  type?: 'transfer' | 'related';
   // Cytoscape styling properties
   color?: string;
   width?: number;
