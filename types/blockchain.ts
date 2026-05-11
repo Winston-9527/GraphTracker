@@ -28,6 +28,14 @@ export interface ContractInfo {
   creationTime?: string;
 }
 
+export interface AddressInfo {
+  address: string;
+  balance: string;
+  transactionCount?: number;
+  chainId: ChainId;
+  chainName: string;
+}
+
 export interface ChainConfig {
   name: string;
   explorer: string;
