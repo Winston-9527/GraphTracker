@@ -11,6 +11,7 @@ export type {
   TokenHolder,
   Transaction,
   ContractInfo,
+  AddressInfo,
   ChainConfig,
   ChainId
 } from './blockchain';
